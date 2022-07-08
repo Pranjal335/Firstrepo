@@ -1,0 +1,26 @@
+<html>
+<head>
+
+</head>
+
+<body>
+    <button onclick="showImage()">SHOW IMAGE</button>
+    <button onclick="remImg()">REMOVE IMAGE</button>
+    <br>
+
+    <img src="pic.jpg" id="img" alt="" height="50%" width="50%">
+
+<script>
+function showImage(){
+    var img=document.getElementById("img");
+    img.style.visibility='visible';
+}
+function remImg(){
+    var img=document.getElementById("img");
+    img.style.visibility='hidden';
+}
+</script>
+
+</body>
+
+</html>
